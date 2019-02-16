@@ -1,0 +1,14 @@
+.navbar {
+    float: right;
+}
+li {
+    display: inline;
+}
+h1 {
+    text-align: center;
+    margin-left: 100px;
+}
+#profile-picture {
+    width: 25%;
+    height: 25%;
+}
