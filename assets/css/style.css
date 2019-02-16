@@ -1,5 +1,6 @@
 .navbar {
     float: right;
+    text-align: center;
 }
 li {
     display: inline;
@@ -7,8 +8,31 @@ li {
 h1 {
     text-align: center;
     margin-left: 100px;
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+h2 {
+    color: #4aaaa5;
 }
 #profile-picture {
     width: 25%;
     height: 25%;
+}
+.main-content {
+    text-align: center;
+    margin: auto;
+}
+.header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+.footer {
+    position: relative;
+    text-align: center;
+
+}
+div {
+    border-color: black;
+    padding: 20px;
 }
