@@ -11,9 +11,11 @@ h1 {
     float: left;
     background-color: #4aaaa5;
     color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 h2 {
     color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 img {
     width: 25%;
@@ -22,6 +24,9 @@ img {
 .main-content {
     text-align: center;
     margin: auto;
+    border-color: #dddddd;
+    background-color: #ffffff;
+    width: 960px;
 }
 .header {
     background-color: #ffffff;
@@ -32,7 +37,7 @@ img {
     text-align: center;
     background-color: #666666;
     border-top-color: #4aaaa5;
-
+    font-family: Arial, 'Helvetica neue', Helvetica, sans-serif;
 }
 form {
     padding: 20px;
@@ -40,4 +45,7 @@ form {
 div {
     border-color: black;
     padding: 25px;
+}
+p {
+    font-family: Arial, 'Helvetica neue', Helvetica, sans-serif;
 }
