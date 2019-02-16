@@ -4,6 +4,7 @@
 }
 li {
     display: inline;
+    margin: 3px;
 }
 h1 {
     text-align: center;
@@ -38,6 +39,7 @@ img {
     background-color: #666666;
     border-top-color: #4aaaa5;
     font-family: Arial, 'Helvetica neue', Helvetica, sans-serif;
+    color: #ffffff;
 }
 form {
     padding: 20px;
@@ -48,4 +50,15 @@ div {
 }
 p {
     font-family: Arial, 'Helvetica neue', Helvetica, sans-serif;
+    text-align: left;
+    margin-left: auto;
+}
+#submit {
+    font-weight: bold;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+#profile-picture {
+    float: left;
+    margin-right: 10px;
 }
