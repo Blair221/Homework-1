@@ -15,7 +15,7 @@ h1 {
 h2 {
     color: #4aaaa5;
 }
-#profile-picture {
+img {
     width: 25%;
     height: 25%;
 }
@@ -30,9 +30,14 @@ h2 {
 .footer {
     position: relative;
     text-align: center;
+    background-color: #666666;
+    border-top-color: #4aaaa5;
 
+}
+form {
+    padding: 20px;
 }
 div {
     border-color: black;
-    padding: 20px;
+    padding: 25px;
 }
