@@ -34,10 +34,10 @@ img {
     border-color: #cccccc;
 }
 .footer {
+    border-top: 5px #4aaaa5;
     position: relative;
     text-align: center;
     background-color: #666666;
-    border-top-color: #4aaaa5;
     font-family: Arial, 'Helvetica neue', Helvetica, sans-serif;
     color: #ffffff;
 }
@@ -61,4 +61,13 @@ p {
 #profile-picture {
     float: left;
     margin-right: 10px;
+}
+input {
+    width: 960px;
+}
+textarea {
+    width: 960px;
+}
+#about {
+    text-align: left;
 }
