@@ -1,6 +1,17 @@
+* {
+    box-sizing: border-box;
+}
 .navbar {
     float: right;
     text-align: center;
+}
+body {
+    background-color: gray;
+    font-size: 15px;
+    line-height: 30px;
+}
+.container {
+    clear: both;
 }
 li {
     display: inline;
@@ -22,7 +33,7 @@ img {
     width: 25%;
     height: 25%;
 }
-.main-content {
+#main-content {
     text-align: center;
     margin: auto;
     border-color: #dddddd;
@@ -35,9 +46,8 @@ img {
 }
 .footer {
     border-top: 5px #4aaaa5;
-    position: relative;
     text-align: center;
-    background-color: #666666;
+    background-color: darkgray;
     font-family: Arial, 'Helvetica neue', Helvetica, sans-serif;
     color: #ffffff;
 }
@@ -62,12 +72,12 @@ p {
     float: left;
     margin-right: 10px;
 }
-input {
-    width: 960px;
-}
-textarea {
-    width: 960px;
-}
-#about {
+.content {
     text-align: left;
+}
+input, textarea {
+    width: 100%;
+}
+form>p {
+    font-weight: bold;
 }
